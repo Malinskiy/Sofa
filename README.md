@@ -40,6 +40,8 @@ dependencies {
 }
 ```
 
+Inspired by [John Hall's](https://github.com/DivineOmega) [post](https://twitter.com/DivineOmega/status/695744177557106688)
+
 ## License
 
 ```

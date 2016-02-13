@@ -1,0 +1,22 @@
+apply from: 'buildsystem/dependencies.gradle'
+
+buildscript {
+    apply from: 'buildsystem/dependencies.gradle'
+
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.0.0-beta4'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

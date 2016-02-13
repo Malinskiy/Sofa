@@ -1,0 +1,17 @@
+ext.versions = [
+        code       : 1,
+        name       : '0.1.0',
+
+        minSdk     : 7,
+        targetSdk  : 23,
+        compileSdk : 23,
+        buildTools : '23.0.2',
+
+        // Library versions
+        supportLibs: '23.1.1'
+]
+
+ext.libraries = [
+        supportAppCompat: "com.android.support:appcompat-v7:$versions.supportLibs",
+        supportAnnotations: "com.android.support:support-annotations:$versions.supportLibs"
+]

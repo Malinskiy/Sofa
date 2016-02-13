@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/Malinskiy/Sofa.svg?branch=master)](https://travis-ci.org/Malinskiy/Sofa)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.malinskiy/sofa/badge.svg)]
+(https://maven-badges.herokuapp.com/maven-central/com.malinskiy/sofa) [![Build Status](https://travis-ci.org/Malinskiy/Sofa.svg?branch=master)](https://travis-ci.org/Malinskiy/Sofa)
 
 # Sofa
 Tired of copy pasting logcat exceptions and stack traces into search? Now you can click links inside the 

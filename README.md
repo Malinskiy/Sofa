@@ -1,10 +1,19 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.malinskiy/sofa/badge.svg)]
 (https://maven-badges.herokuapp.com/maven-central/com.malinskiy/sofa) [![Build Status](https://travis-ci.org/Malinskiy/Sofa.svg?branch=master)](https://travis-ci.org/Malinskiy/Sofa)
 
-# Sofa
-Tired of copy pasting logcat exceptions and stack traces into search? Now you can click links inside the 
-logcat and browse for possible resolutions. 
+# Handling the exceptions:
 
+```java
+try {
+    something;
+} catch(Exception e) {
+    StackOverflow.search(e);
+}
+```
+# Sofa
+So probably you're tired of copy pasting logcat exceptions and stack traces into search, right? Now you can click links inside the logcat and browse for possible resolutions.
+
+# Usage
 Just install this comfy sofa into your application:
 ```java
 public class MainApplication extends Application {
